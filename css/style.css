@@ -1,0 +1,78 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.img-estrada{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}**/
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../img/EstradaReal.jpg");
+}
+.barra-container{
+    height: 100%;
+    opacity: calc(0.3);
+}
+.txt-barra{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.txt-central{
+    text-align: center;
+    margin-top: 110px;
+    color: rgb(5, 3, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.txt-centro{
+    font-weight: 200;
+}
+#txt-link{
+    font-size: 25px;
+    margin-left: 250px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.barra-txt-central{
+    height: 60px;
+    background-color: rgba(71, 209, 163, 0);
+    opacity: 0.7;
+}
+.botao{
+    text-align: center;
+    margin-top: auto;
+    margin-top: 10px;
+
+}
+.txt-botao{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.botao-inside{
+    background-color: rgba(238, 13, 69, 0.842);
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: #222121;
+    
+}
+.botao-inside:hover, .botao-inside:focus, .botao-inside:active{
+    color: rgb(201, 130, 44);
+    background-color: #222121!important;
+    border: none;
+    transition: 0.7s;
+}
